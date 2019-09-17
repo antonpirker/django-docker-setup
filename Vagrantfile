@@ -20,30 +20,4 @@ Vagrant.configure("2") do |config|
     config.vm.provision :shell, path: "scripts/vagrant/startup.sh", run: "always"
 end
 
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
