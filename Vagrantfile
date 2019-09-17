@@ -19,3 +19,4 @@ Vagrant.configure("2") do |config|
     config.vm.provision :shell, path: "scripts/vagrant/provision_user.sh", privileged: false
     config.vm.provision :shell, path: "scripts/vagrant/startup.sh", run: "always"
 end
+
